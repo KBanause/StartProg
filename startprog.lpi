@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <SaveClosedFiles Value="False"/>
+        <SaveOnlyProjectUnits Value="True"/>
+        <AlwaysBuild Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <TargetFileExt Value=".exe"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="2"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <CurrentVersionNr Value="3"/>
+      <CurrentMinorRevNr Value="4"/>
+      <CurrentBuildNr Value="69"/>
+      <ProjectVersion Value="3.0.0.1"/>
+      <Language Value="0407"/>
+      <LegalCopyright Value="(c) 2009 Marc Rasmussen"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="DCPlazarus"/>
+        <MinVersion Major="2" Release="3" Build="2" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="startprog.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StartProg"/>
+        <CursorPos X="26" Y="18"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="82"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Source\frm_startprogmain.pas"/>
+        <ComponentName Value="frmStartProgMain"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_StartProgMain"/>
+        <CursorPos X="3" Y="247"/>
+        <TopLine Value="267"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="82"/>
+        <Bookmarks Count="1">
+          <Item0 X="13" Y="350" ID="0"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Source\frm_startprogsetup.pas"/>
+        <ComponentName Value="frmStartProgSetup"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_StartProgSetup"/>
+        <CursorPos X="43" Y="301"/>
+        <TopLine Value="244"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="82"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Packages\mrxml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mrxml"/>
+        <CursorPos X="3" Y="939"/>
+        <TopLine Value="937"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Source\frm_startproginputbox.pas"/>
+        <ComponentName Value="frmStartProgInputBox"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_StartProgInputBox"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="52"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Source\startprog_tools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StartProg_Tools"/>
+        <CursorPos X="18" Y="65"/>
+        <TopLine Value="24"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="47"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Source\startprog_startthread.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StartProg_StartThread"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="80"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="43"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Source\startprog_tools.win"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="40"/>
+        <SyntaxHighlighter Value="None"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Source\frm_startproggetcredentials.pas"/>
+        <ComponentName Value="frmStartProgGetCredentials"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_StartProgGetCredentials"/>
+        <CursorPos X="15" Y="48"/>
+        <TopLine Value="24"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Source\frm_startprogstartother.pas"/>
+        <ComponentName Value="frmStartProgStartOther"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frm_StartProgStartOther"/>
+        <CursorPos X="32" Y="24"/>
+        <TopLine Value="3"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\Packages\mrfunktionen_system.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MRFunktionen_System"/>
+        <CursorPos X="11" Y="10"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="26"/>
+        <Loaded Value="True"/>
+      </Unit10>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <OtherUnitFiles Value="Source\;..\..\Packages\"/>
+      <UnitOutputDirectory Value="Output"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-dSPDEBUG11 -dUseCThreads"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

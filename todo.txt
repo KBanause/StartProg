@@ -1,0 +1,5 @@
+http://www.michael-puff.de/Artikel/CreatePrecessWithLogonW.shtml
+
+- Run (Unix)
+- RunAs (Unix) (evtl. mit möglichen Benutzern als ComboBox)
+- RunAs (Windows): Lokale Benutzer als ComboBox einrichten
