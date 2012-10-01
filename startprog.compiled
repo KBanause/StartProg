@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<CONFIG>
-  <Compiler Value="L:\fpc\bin\x86_64-win64\fpc.exe" Date="977601461"/>
-  <Params Value=" -MObjFPC -Sgi -O1 -gl -WG -vewnhi -l -FiL:\Projekte\StartProg\ -FuL:\Projekte\StartProg\Source\ -FuL:\Packages\ -FuL:\Packages\DCP\lib\ -FuL:\Lazarus\lcl\units\x86_64-win64\ -FuL:\Lazarus\lcl\units\x86_64-win64\win32\ -FuL:\Lazarus\packager\units\x86_64-win64\ -FuL:\Projekte\StartProg\ -Fu. -oL:\Projekte\StartProg\startprog.exe -dSPDEBUG11 -dUseCThreads -dLCL -dLCLwin32 startprog.lpr"/>
-</CONFIG>

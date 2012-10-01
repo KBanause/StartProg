@@ -1,4 +1,4 @@
-''StartProg''
+StartProg
 ----
 
 written in FreePascal and Lazarus

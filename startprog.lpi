@@ -1,31 +1,31 @@
 <?xml version="1.0"?>
 <CONFIG>
   <ProjectOptions>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
-    <Version Value="7"/>
     <General>
       <Flags>
         <SaveClosedFiles Value="False"/>
         <SaveOnlyProjectUnits Value="True"/>
-        <AlwaysBuild Value="False"/>
       </Flags>
       <MainUnit Value="0"/>
       <AutoCreateForms Value="False"/>
-      <TargetFileExt Value=".exe"/>
-      <Icon Value="0"/>
       <UseXPManifest Value="True"/>
-      <ActiveEditorIndexAtStart Value="2"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
     </General>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <CurrentVersionNr Value="3"/>
-      <CurrentMinorRevNr Value="4"/>
-      <CurrentBuildNr Value="69"/>
-      <ProjectVersion Value="3.0.0.1"/>
+      <MajorVersionNr Value="3"/>
+      <RevisionNr Value="4"/>
+      <BuildNr Value="69"/>
       <Language Value="0407"/>
-      <LegalCopyright Value="(c) 2009 Marc Rasmussen"/>
+      <StringTable LegalCopyright="(c) 2009 Marc Rasmussen" ProductVersion="3.0.0.1"/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -56,22 +56,24 @@
         <Filename Value="startprog.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg"/>
-        <CursorPos X="26" Y="18"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <EditorIndex Value="7"/>
-        <UsageCount Value="82"/>
-        <Loaded Value="True"/>
+        <CursorPos X="26" Y="18"/>
+        <UsageCount Value="83"/>
       </Unit0>
       <Unit1>
         <Filename Value="Source\frm_startprogmain.pas"/>
-        <ComponentName Value="frmStartProgMain"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStartProgMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgMain"/>
-        <CursorPos X="3" Y="247"/>
-        <TopLine Value="267"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
-        <UsageCount Value="82"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="36" Y="9"/>
+        <UsageCount Value="83"/>
         <Bookmarks Count="1">
           <Item0 X="13" Y="350" ID="0"/>
         </Bookmarks>
@@ -79,113 +81,106 @@
       </Unit1>
       <Unit2>
         <Filename Value="Source\frm_startprogsetup.pas"/>
-        <ComponentName Value="frmStartProgSetup"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStartProgSetup"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgSetup"/>
-        <CursorPos X="43" Y="301"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="244"/>
-        <EditorIndex Value="9"/>
-        <UsageCount Value="82"/>
-        <Loaded Value="True"/>
+        <CursorPos X="43" Y="301"/>
+        <UsageCount Value="83"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\Packages\mrxml.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="mrxml"/>
-        <CursorPos X="3" Y="939"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="937"/>
-        <EditorIndex Value="6"/>
-        <UsageCount Value="80"/>
-        <Loaded Value="True"/>
+        <CursorPos X="3" Y="939"/>
+        <UsageCount Value="81"/>
       </Unit3>
       <Unit4>
         <Filename Value="Source\frm_startproginputbox.pas"/>
-        <ComponentName Value="frmStartProgInputBox"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStartProgInputBox"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgInputBox"/>
-        <CursorPos X="1" Y="1"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <EditorIndex Value="10"/>
-        <UsageCount Value="52"/>
-        <Loaded Value="True"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="53"/>
       </Unit4>
       <Unit5>
         <Filename Value="Source\startprog_tools.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg_Tools"/>
-        <CursorPos X="18" Y="65"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="24"/>
-        <EditorIndex Value="5"/>
-        <UsageCount Value="47"/>
-        <Loaded Value="True"/>
+        <CursorPos X="18" Y="65"/>
+        <UsageCount Value="48"/>
       </Unit5>
       <Unit6>
         <Filename Value="Source\startprog_startthread.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg_StartThread"/>
-        <CursorPos X="1" Y="1"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="80"/>
-        <EditorIndex Value="8"/>
-        <UsageCount Value="43"/>
-        <Loaded Value="True"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="44"/>
       </Unit6>
       <Unit7>
         <Filename Value="Source\startprog_tools.win"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="1"/>
-        <UsageCount Value="40"/>
-        <SyntaxHighlighter Value="None"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="41"/>
+        <DefaultSyntaxHighlighter Value="None"/>
       </Unit7>
       <Unit8>
         <Filename Value="Source\frm_startproggetcredentials.pas"/>
-        <ComponentName Value="frmStartProgGetCredentials"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStartProgGetCredentials"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgGetCredentials"/>
-        <CursorPos X="15" Y="48"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="24"/>
-        <EditorIndex Value="4"/>
-        <UsageCount Value="38"/>
-        <Loaded Value="True"/>
+        <CursorPos X="15" Y="48"/>
+        <UsageCount Value="39"/>
       </Unit8>
       <Unit9>
         <Filename Value="Source\frm_startprogstartother.pas"/>
-        <ComponentName Value="frmStartProgStartOther"/>
         <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStartProgStartOther"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgStartOther"/>
-        <CursorPos X="32" Y="24"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="3"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="37"/>
-        <Loaded Value="True"/>
+        <CursorPos X="32" Y="24"/>
+        <UsageCount Value="38"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\..\Packages\mrfunktionen_system.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MRFunktionen_System"/>
-        <CursorPos X="11" Y="10"/>
+        <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <EditorIndex Value="1"/>
-        <UsageCount Value="26"/>
-        <Loaded Value="True"/>
+        <CursorPos X="11" Y="10"/>
+        <UsageCount Value="27"/>
       </Unit10>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)\"/>
-      <OtherUnitFiles Value="Source\;..\..\Packages\"/>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="Source;..\MRFunktionen_Lazarus"/>
       <UnitOutputDirectory Value="Output"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
         <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
     <Linking>
@@ -196,7 +191,7 @@
       </Options>
     </Linking>
     <Other>
-      <CustomOptions Value="-dSPDEBUG11 -dUseCThreads"/>
+      <CustomOptions Value="-dSPDEBUG11 -dUseCThreads"/>
       <CompilerPath Value="$(CompPath)"/>
     </Other>
   </CompilerOptions>
@@ -213,4 +208,5 @@
       </Item3>
     </Exceptions>
   </Debugging>
-</CONFIG>
+  <EditorMacros Count="0"/>
+</CONFIG>
