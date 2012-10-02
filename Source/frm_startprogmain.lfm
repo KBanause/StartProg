@@ -1,7 +1,7 @@
 object frmStartProgMain: TfrmStartProgMain
-  Left = 393
+  Left = 957
   Height = 300
-  Top = 196
+  Top = 391
   Width = 400
   Caption = 'frmStartProgMain'
   Icon.Data = {
@@ -45,7 +45,7 @@ object frmStartProgMain: TfrmStartProgMain
   }
   OnClose = FormClose
   OnCreate = FormCreate
-  LCLVersion = '0.9.27'
+  LCLVersion = '1.1'
   object TrayIcon1: TTrayIcon
     PopUpMenu = PopupMenu1
     Icon.Data = {
@@ -89,17 +89,10 @@ object frmStartProgMain: TfrmStartProgMain
     }
     Visible = True
     OnDblClick = TrayIcon1DblClick
-    left = 128
-    top = 59
+    left = 70
+    top = 40
   end
   object ApplicationProperties1: TApplicationProperties
-    CaptureExceptions = True
-    HintColor = clInfoBk
-    HintHidePause = 2500
-    HintPause = 500
-    HintShortCuts = True
-    HintShortPause = 0
-    ShowHint = True
     ShowMainForm = False
     Title = 'StartProg'
     OnException = ApplicationProperties1Exception
@@ -156,4 +149,4 @@ object frmStartProgMain: TfrmStartProgMain
       OnClick = mi_beendenClick
     end
   end
-end
+end

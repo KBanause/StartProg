@@ -129,6 +129,9 @@ begin
     FConfXML := nil;
   end; // if (not FileExists(FConfigFileName))
 
+  {$IFNDEF WINDOWS}
+  mi_system.Visible := false;
+  {$ENDIF}
   LoadConfig;
 end;
 
@@ -429,7 +432,7 @@ const
     sl := TStringList.Create;
     sl.Sorted := True;
     sl.Duplicates := dupAccept;
-    ParentMenu.Visible := (node <> nil);
+    ParentMenu.Visible := ((node <> nil) and (ParentMenu <> PopupMenu1.Items));
     dosep := False;
 
     // Erst die Einträge mit Submenüs

@@ -248,7 +248,7 @@ begin
     NameIsOK := True;
 
     if (node = nil) then
-      xmlnode := Config.RootNode
+      xmlnode := Config.RootNode.Child('Menu')
     else
       xmlnode := TMRXMLNode(node.Data);
 

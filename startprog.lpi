@@ -19,9 +19,9 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="3"/>
       <RevisionNr Value="4"/>
-      <BuildNr Value="69"/>
+      <BuildNr Value="72"/>
       <Language Value="0407"/>
-      <StringTable LegalCopyright="(c) 2009 Marc Rasmussen" ProductVersion="3.0.0.1"/>
+      <StringTable LegalCopyright="(c) 2012 Marc Rasmussen" ProductVersion="3.0.4.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -59,7 +59,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="26" Y="18"/>
-        <UsageCount Value="83"/>
+        <UsageCount Value="85"/>
       </Unit0>
       <Unit1>
         <Filename Value="Source\frm_startprogmain.pas"/>
@@ -71,24 +71,29 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="55"/>
-        <CursorPos X="36" Y="9"/>
-        <UsageCount Value="83"/>
+        <TopLine Value="225"/>
+        <CursorPos X="3" Y="248"/>
+        <UsageCount Value="85"/>
         <Bookmarks Count="1">
-          <Item0 X="13" Y="350" ID="0"/>
+          <Item0 X="13" Y="353" ID="0"/>
         </Bookmarks>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="Source\frm_startprogsetup.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmStartProgSetup"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgSetup"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="244"/>
-        <CursorPos X="43" Y="301"/>
-        <UsageCount Value="83"/>
+        <TopLine Value="230"/>
+        <CursorPos X="47" Y="251"/>
+        <UsageCount Value="85"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\Packages\mrxml.pas"/>
@@ -97,7 +102,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="937"/>
         <CursorPos X="3" Y="939"/>
-        <UsageCount Value="81"/>
+        <UsageCount Value="83"/>
       </Unit3>
       <Unit4>
         <Filename Value="Source\frm_startproginputbox.pas"/>
@@ -108,7 +113,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="53"/>
+        <UsageCount Value="55"/>
       </Unit4>
       <Unit5>
         <Filename Value="Source\startprog_tools.pas"/>
@@ -117,7 +122,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="24"/>
         <CursorPos X="18" Y="65"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="50"/>
       </Unit5>
       <Unit6>
         <Filename Value="Source\startprog_startthread.pas"/>
@@ -126,14 +131,14 @@
         <WindowIndex Value="0"/>
         <TopLine Value="80"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="46"/>
       </Unit6>
       <Unit7>
         <Filename Value="Source\startprog_tools.win"/>
         <IsPartOfProject Value="True"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="41"/>
+        <UsageCount Value="43"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit7>
       <Unit8>
@@ -145,7 +150,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="24"/>
         <CursorPos X="15" Y="48"/>
-        <UsageCount Value="39"/>
+        <UsageCount Value="41"/>
       </Unit8>
       <Unit9>
         <Filename Value="Source\frm_startprogstartother.pas"/>
@@ -156,7 +161,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="3"/>
         <CursorPos X="32" Y="24"/>
-        <UsageCount Value="38"/>
+        <UsageCount Value="40"/>
       </Unit9>
       <Unit10>
         <Filename Value="..\..\Packages\mrfunktionen_system.pas"/>
@@ -165,7 +170,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="11" Y="10"/>
-        <UsageCount Value="27"/>
+        <UsageCount Value="29"/>
       </Unit10>
     </Units>
   </ProjectOptions>
@@ -183,7 +188,14 @@
         <UseAnsiStrings Value="False"/>
       </SyntaxOptions>
     </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+    </CodeGeneration>
     <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
@@ -196,6 +208,14 @@
     </Other>
   </CompilerOptions>
   <Debugging>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="ParentMenu"/>
+      </Item1>
+      <Item2>
+        <Expression Value="FHandle"/>
+      </Item2>
+    </Watches>
     <Exceptions Count="3">
       <Item1>
         <Name Value="EAbort"/>

@@ -1,6 +1,8 @@
+{ This is an automatically generated lazarus resource file }
+
 LazarusResources.Add('TfrmStartProgMain','FORMDATA',[
-  'TPF0'#17'TfrmStartProgMain'#16'frmStartProgMain'#4'Left'#3#137#1#6'Height'#3
-  +','#1#3'Top'#3#196#0#5'Width'#3#144#1#7'Caption'#6#16'frmStartProgMain'#9'Ic'
+  'TPF0'#17'TfrmStartProgMain'#16'frmStartProgMain'#4'Left'#3#189#3#6'Height'#3
+  +','#1#3'Top'#3#135#1#5'Width'#3#144#1#7'Caption'#6#16'frmStartProgMain'#9'Ic'
   +'on.Data'#10#130#4#0#0'~'#4#0#0#0#0#1#0#1#0#16#16#0#0#1#0' '#0'h'#4#0#0#22#0
   +#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0#0#0#0#0#0#0#0#0' '#28#0#0' '#28#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
@@ -39,9 +41,9 @@ LazarusResources.Add('TfrmStartProgMain','FORMDATA',[
   +#0#255#255#0#0#255#255#0#0#0'@'#0#0#0'@'#0#0#0'@'#0#0#0'@'#0#0#0'@'#0#0#128
   +#192#0#0#128#192#0#0#128#192#0#0#192#192#0#0#192#193#0#0#255#255#255#255#255
   +#255#255#255#255#255#255#255#7'OnClose'#7#9'FormClose'#8'OnCreate'#7#10'Form'
-  +'Create'#10'LCLVersion'#6#6'0.9.27'#0#9'TTrayIcon'#9'TrayIcon1'#9'PopUpMenu'
-  +#7#10'PopupMenu1'#9'Icon.Data'#10#130#4#0#0'~'#4#0#0#0#0#1#0#1#0#16#16#0#0#1
-  +#0' '#0'h'#4#0#0#22#0#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0#0#0#0#0#0#0#0#0
+  +'Create'#10'LCLVersion'#6#3'1.1'#0#9'TTrayIcon'#9'TrayIcon1'#9'PopUpMenu'#7
+  +#10'PopupMenu1'#9'Icon.Data'#10#130#4#0#0'~'#4#0#0#0#0#1#0#1#0#16#16#0#0#1#0
+  +' '#0'h'#4#0#0#22#0#0#0'('#0#0#0#16#0#0#0' '#0#0#0#1#0' '#0#0#0#0#0#0#0#0#0
   +' '#28#0#0' '#28#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
@@ -78,14 +80,12 @@ LazarusResources.Add('TfrmStartProgMain','FORMDATA',[
   +#0#0#0#0#0#0#255#255#0#0#255#255#0#0#255#255#0#0#0'@'#0#0#0'@'#0#0#0'@'#0#0#0
   +'@'#0#0#0'@'#0#0#128#192#0#0#128#192#0#0#128#192#0#0#192#192#0#0#192#193#0#0
   +#255#255#255#255#255#255#255#255#255#255#255#255#7'Visible'#9#10'OnDblClick'
-  +#7#17'TrayIcon1DblClick'#4'left'#3#128#0#3'top'#2';'#0#0#22'TApplicationProp'
-  +'erties'#22'ApplicationProperties1'#17'CaptureExceptions'#9#9'HintColor'#7#8
-  +'clInfoBk'#13'HintHidePause'#3#196#9#9'HintPause'#3#244#1#13'HintShortCuts'#9
-  +#14'HintShortPause'#2#0#8'ShowHint'#9#12'ShowMainForm'#8#5'Title'#6#9'StartP'
-  +'rog'#11'OnException'#7#31'ApplicationProperties1Exception'#4'left'#3#177#0#3
-  +'top'#2'B'#0#0#10'TPopupMenu'#10'PopupMenu1'#7'OnPopup'#7#15'PopupMenu1Popup'
-  +#4'left'#2'd'#3'top'#3#154#0#0#9'TMenuItem'#7'mi_sep1'#7'Caption'#6#1'-'#0#0
-  +#9'TMenuItem'#9'mi_system'#7'Caption'#6#6'System'#0#9'TMenuItem'#7'mi_lock'#7
+  +#7#17'TrayIcon1DblClick'#4'left'#2'F'#3'top'#2'('#0#0#22'TApplicationPropert'
+  +'ies'#22'ApplicationProperties1'#12'ShowMainForm'#8#5'Title'#6#9'StartProg'
+  +#11'OnException'#7#31'ApplicationProperties1Exception'#4'left'#3#177#0#3'top'
+  +#2'B'#0#0#10'TPopupMenu'#10'PopupMenu1'#7'OnPopup'#7#15'PopupMenu1Popup'#4'l'
+  +'eft'#2'd'#3'top'#3#154#0#0#9'TMenuItem'#7'mi_sep1'#7'Caption'#6#1'-'#0#0#9
+  +'TMenuItem'#9'mi_system'#7'Caption'#6#6'System'#0#9'TMenuItem'#7'mi_lock'#7
   +'Caption'#6#16'Lock Workstation'#7'OnClick'#7#12'mi_lockClick'#0#0#9'TMenuIt'
   +'em'#9'mi_logoff'#7'Caption'#6#7'Log Off'#7'OnClick'#7#14'mi_logoffClick'#0#0
   +#9'TMenuItem'#10'mi_standby'#7'Caption'#6#7'StandBy'#7'OnClick'#7#15'mi_stan'
@@ -97,4 +97,4 @@ LazarusResources.Add('TfrmStartProgMain','FORMDATA',[
   +'k'#0#0#9'TMenuItem'#7'mi_sep2'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#8'mi_setu'
   +'p'#7'Caption'#6#5'Setup'#7'OnClick'#7#13'mi_setupClick'#0#0#9'TMenuItem'#10
   +'mi_beenden'#7'Caption'#6#7'Beenden'#7'OnClick'#7#15'mi_beendenClick'#0#0#0#0
-]);
+]);

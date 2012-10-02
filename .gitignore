@@ -1,3 +1,5 @@
 *.ppu
 *.o
 *.compiled
+*.a
+*.or
