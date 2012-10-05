@@ -47,21 +47,22 @@ object frmStartProgStartOther: TfrmStartProgStartOther
     000080C0000080C0000080C00000C0C00000C0C10000FFFFFFFFFFFFFFFFFFFF
     FFFF
   }
+  OnCreate = FormCreate
   Position = poMainFormCenter
-  LCLVersion = '0.9.27'
+  LCLVersion = '1.1'
   object Label1: TLabel
     Left = 65
-    Height = 31
+    Height = 38
     Top = 6
-    Width = 289
+    Width = 326
     Caption = 'Geben Sie bitte den namen eines Programms, Ordners,'#13#10'Dokuments oder einer Internetressource an.'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 10
-    Height = 16
+    Height = 17
     Top = 54
-    Width = 41
+    Width = 45
     Caption = 'Öffnen:'
     ParentColor = False
   end
@@ -71,7 +72,6 @@ object frmStartProgStartOther: TfrmStartProgStartOther
     Top = 50
     Width = 23
     Anchors = [akTop, akRight]
-    Color = clBtnFace
     Glyph.Data = {
       36040000424D3604000000000000360000002800000010000000100000000100
       20000000000000040000640000006400000000000000000000002C86D8D12D88
@@ -108,7 +108,6 @@ object frmStartProgStartOther: TfrmStartProgStartOther
       FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EAC39DFFE6BF96FFE4BB92FFE4BB
       92FFD1A06CF5D09E6DF6CC965FDAC479427EB2673C09FFFFFF00
     }
-    NumGlyphs = 0
     OnClick = SpeedButton1Click
   end
   object BitBtn1: TBitBtn
@@ -137,35 +136,33 @@ object frmStartProgStartOther: TfrmStartProgStartOther
   end
   object chb_runas: TCheckBox
     Left = 65
-    Height = 19
-    Top = 120
-    Width = 156
+    Height = 21
+    Top = 118
+    Width = 197
     Anchors = [akLeft, akBottom]
     Caption = 'Als anderer Benutzer starten.'
     TabOrder = 2
   end
   object ed_filename: TComboBox
     Left = 65
-    Height = 21
+    Height = 27
     Top = 50
     Width = 376
     Anchors = [akTop, akLeft, akRight]
-    AutoComplete = False
-    ItemHeight = 13
-    ItemWidth = 0
+    ItemHeight = 0
     TabOrder = 3
   end
   object ed_params: TEdit
     Left = 65
-    Height = 23
+    Height = 27
     Top = 80
     Width = 399
     Anchors = [akTop, akLeft, akRight]
     TabOrder = 4
   end
   object OpenDialog1: TOpenDialog
-    Filter = 'EXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM-Dateien|*.com|Ausführbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Dateien|*.*'
+    OnShow = OpenDialog1Show
     left = 232
     top = 14
   end
-end
+end

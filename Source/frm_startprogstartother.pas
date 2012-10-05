@@ -22,6 +22,8 @@ type
     Label2: TLabel;
     OpenDialog1: TOpenDialog;
     SpeedButton1: TSpeedButton;
+    procedure FormCreate(Sender: TObject);
+    procedure OpenDialog1Show(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
   private
     { private declarations }
@@ -35,6 +37,26 @@ var
 implementation
 
 { TfrmStartProgStartOther }
+
+procedure TfrmStartProgStartOther.FormCreate(Sender: TObject);
+begin
+  {$IFDEF UNIX}
+  OpenDialog1.Filter := 'Script-Dateien|*.sh;*.pl;*.py|Alle Dateien|*';
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+  OpenDialog1.Filter := 'EXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM-Dateien|*.com|Ausführbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Dateien|*.*';
+  {$ENDIF}
+end;
+
+procedure TfrmStartProgStartOther.OpenDialog1Show(Sender: TObject);
+begin
+  {$IFDEF LINUX}
+  OpenDialog1.Filter := 'Script-Dateien|*.sh;*.pl;*.py|Alle Dateien|*';
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+  OpenDialog1.Filter := 'EXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM-Dateien|*.com|Ausführbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Dateien|*.*';
+  {$ENDIF}
+end;
 
 procedure TfrmStartProgStartOther.SpeedButton1Click(Sender: TObject);
 begin
@@ -50,4 +72,4 @@ initialization
   {$I frm_startprogstartother.lrs}
 
 end.
-
+

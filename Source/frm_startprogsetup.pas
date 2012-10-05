@@ -39,6 +39,7 @@ type
     StatusBar1: TStatusBar;
     TreeView1: TTreeView;
     procedure bt_saveprogClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure mi_delprogClick(Sender: TObject);
     procedure mi_newmenuClick(Sender: TObject);
     procedure mi_newprogClick(Sender: TObject);
@@ -191,6 +192,16 @@ begin
   TreeView1.AlphaSort;
   //TreeView1.FullExpand;
   TreeView1.EndUpdate;
+end;
+
+procedure TfrmStartProgSetup.FormCreate(Sender: TObject);
+begin
+  {$IFDEF UNIX}
+  fned_filename.Filter := 'Script-Dateien|*.sh;*.pl;*.py|Alle Dateien|*';
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+  fned_filename.Filter := 'EXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM-Dateien|*.com|Ausführbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Dateien|*.*';
+  {$ENDIF}
 end;
 
 procedure TfrmStartProgSetup.mi_delprogClick(Sender: TObject);
@@ -406,7 +417,7 @@ begin
   if (tn <> nil) then
     xmln := TMRXMLNode(tn.Data)
   else
-    xmln := Config.RootNode;
+    xmln := Config.RootNode.Child('Menu');
 
   Config.MoveNode(xmlnode, xmln);
   FillTreeView;

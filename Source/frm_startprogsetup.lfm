@@ -9,6 +9,7 @@ object frmStartProgSetup: TfrmStartProgSetup
   Caption = 'frmStartProgSetup'
   ClientHeight = 317
   ClientWidth = 568
+  OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '1.1'
   object TreeView1: TTreeView
