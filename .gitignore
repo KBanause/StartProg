@@ -3,3 +3,6 @@
 *.compiled
 *.a
 *.or
+*.obj
+*.res
+*.bak

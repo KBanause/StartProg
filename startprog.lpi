@@ -10,7 +10,6 @@
       </Flags>
       <MainUnit Value="0"/>
       <AutoCreateForms Value="False"/>
-      <UseXPManifest Value="True"/>
       <Icon Value="0"/>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
@@ -19,9 +18,9 @@
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="3"/>
       <RevisionNr Value="4"/>
-      <BuildNr Value="76"/>
+      <BuildNr Value="78"/>
       <Language Value="0407"/>
-      <StringTable LegalCopyright="(c) 2012 Marc Rasmussen" ProductVersion="3.0.4.1"/>
+      <StringTable CompanyName="Marc Rasmussen" LegalCopyright="(c) 2012 Marc Rasmussen" ProductVersion="3.0.4.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
@@ -56,10 +55,13 @@
         <Filename Value="startprog.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="26" Y="18"/>
+        <CursorPos X="1" Y="22"/>
         <UsageCount Value="90"/>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="Source\frm_startprogmain.pas"/>
@@ -70,8 +72,8 @@
         <UnitName Value="frm_StartProgMain"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="246"/>
-        <CursorPos X="30" Y="296"/>
+        <TopLine Value="91"/>
+        <CursorPos X="107" Y="107"/>
         <UsageCount Value="90"/>
         <Bookmarks Count="1">
           <Item0 X="13" Y="353" ID="0"/>
@@ -86,8 +88,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgSetup"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
         <TopLine Value="384"/>
         <CursorPos X="42" Y="420"/>
@@ -128,10 +129,12 @@
         <Filename Value="Source\startprog_startthread.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg_StartThread"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="80"/>
-        <CursorPos X="1" Y="1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="35" Y="57"/>
         <UsageCount Value="51"/>
+        <Loaded Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="Source\startprog_tools.win"/>
@@ -159,7 +162,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgStartOther"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
         <TopLine Value="16"/>
         <CursorPos X="1" Y="54"/>
@@ -196,6 +199,9 @@
       <SmartLinkUnit Value="True"/>
     </CodeGeneration>
     <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+      </Debugging>
       <LinkSmart Value="True"/>
       <Options>
         <Win32>
@@ -239,4 +245,4 @@
     </Exceptions>
   </Debugging>
   <EditorMacros Count="0"/>
-</CONFIG>
+</CONFIG>
