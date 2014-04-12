@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
     <Version Value="9"/>
@@ -17,8 +17,8 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="3"/>
-      <RevisionNr Value="4"/>
-      <BuildNr Value="78"/>
+      <RevisionNr Value="5"/>
+      <BuildNr Value="2"/>
       <Language Value="0407"/>
       <StringTable CompanyName="Marc Rasmussen" LegalCopyright="(c) 2012 Marc Rasmussen" ProductVersion="3.0.4.1"/>
     </VersionInfo>
@@ -55,12 +55,11 @@
         <Filename Value="startprog.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="22"/>
-        <UsageCount Value="90"/>
+        <UsageCount Value="91"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -72,9 +71,9 @@
         <UnitName Value="frm_StartProgMain"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="91"/>
-        <CursorPos X="107" Y="107"/>
-        <UsageCount Value="90"/>
+        <TopLine Value="361"/>
+        <CursorPos X="3" Y="363"/>
+        <UsageCount Value="91"/>
         <Bookmarks Count="1">
           <Item0 X="13" Y="353" ID="0"/>
         </Bookmarks>
@@ -88,11 +87,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgSetup"/>
-        <EditorIndex Value="4"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="384"/>
-        <CursorPos X="42" Y="420"/>
-        <UsageCount Value="90"/>
+        <TopLine Value="512"/>
+        <CursorPos X="1" Y="520"/>
+        <UsageCount Value="91"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -103,7 +103,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="937"/>
         <CursorPos X="3" Y="939"/>
-        <UsageCount Value="88"/>
+        <UsageCount Value="89"/>
       </Unit3>
       <Unit4>
         <Filename Value="Source\frm_startproginputbox.pas"/>
@@ -114,7 +114,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="60"/>
+        <UsageCount Value="61"/>
       </Unit4>
       <Unit5>
         <Filename Value="Source\startprog_tools.pas"/>
@@ -123,17 +123,17 @@
         <WindowIndex Value="0"/>
         <TopLine Value="24"/>
         <CursorPos X="18" Y="65"/>
-        <UsageCount Value="55"/>
+        <UsageCount Value="56"/>
       </Unit5>
       <Unit6>
         <Filename Value="Source\startprog_startthread.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="StartProg_StartThread"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="5"/>
         <WindowIndex Value="0"/>
         <TopLine Value="45"/>
         <CursorPos X="35" Y="57"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -141,7 +141,7 @@
         <IsPartOfProject Value="True"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="48"/>
+        <UsageCount Value="49"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit7>
       <Unit8>
@@ -153,7 +153,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="24"/>
         <CursorPos X="15" Y="48"/>
-        <UsageCount Value="46"/>
+        <UsageCount Value="47"/>
       </Unit8>
       <Unit9>
         <Filename Value="Source\frm_startprogstartother.pas"/>
@@ -162,11 +162,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frm_StartProgStartOther"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="6"/>
         <WindowIndex Value="0"/>
         <TopLine Value="16"/>
         <CursorPos X="1" Y="54"/>
-        <UsageCount Value="45"/>
+        <UsageCount Value="46"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit9>
@@ -177,7 +177,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="11" Y="10"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="35"/>
       </Unit10>
     </Units>
   </ProjectOptions>

@@ -6,63 +6,64 @@ LazarusResources.Add('TfrmStartProgSetup','FORMDATA',[
   +'orderIcons'#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderStyle'#7#8'bsSing'
   +'le'#7'Caption'#6#17'frmStartProgSetup'#12'ClientHeight'#3'='#1#11'ClientWid'
   +'th'#3'8'#2#8'OnCreate'#7#10'FormCreate'#8'Position'#7#14'poScreenCenter'#10
-  +'LCLVersion'#6#3'1.1'#0#9'TTreeView'#9'TreeView1'#4'Left'#2#0#6'Height'#3#255
-  +#0#3'Top'#2#0#5'Width'#3#8#1#5'Align'#7#6'alLeft'#9'PopupMenu'#7#10'PopupMen'
-  +'u1'#8'ReadOnly'#9#16'RightClickSelect'#9#10'ScrollBars'#7#10'ssAutoBoth'#8
-  +'TabOrder'#2#0#10'OnDragDrop'#7#17'TreeView1DragDrop'#10'OnDragOver'#7#17'Tr'
-  +'eeView1DragOver'#8'OnEdited'#7#15'TreeView1Edited'#9'OnEditing'#7#16'TreeVi'
-  +'ew1Editing'#7'OnKeyUp'#7#14'TreeView1KeyUp'#11'OnMouseDown'#7#18'TreeView1M'
-  +'ouseDown'#18'OnSelectionChanged'#7#25'TreeView1SelectionChanged'#7'Options'
-  +#11#17'tvoAutoItemHeight'#16'tvoHideSelection'#21'tvoKeepCollapsedNodes'#11
-  +'tvoReadOnly'#19'tvoRightClickSelect'#14'tvoShowButtons'#12'tvoShowLines'#11
-  +'tvoShowRoot'#11'tvoToolTips'#0#0#0#10'TStatusBar'#10'StatusBar1'#4'Left'#2#0
-  +#6'Height'#2#21#3'Top'#3'('#1#5'Width'#3'8'#2#6'Panels'#14#0#0#0#6'TPanel'#6
-  +'Panel1'#4'Left'#2#0#6'Height'#2')'#3'Top'#3#255#0#5'Width'#3'8'#2#5'Align'#7
-  +#8'alBottom'#10'BevelOuter'#7#9'bvLowered'#12'ClientHeight'#2')'#11'ClientWi'
-  +'dth'#3'8'#2#8'TabOrder'#2#2#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'c'#1#6'Height'
-  +#2#30#3'Top'#2#6#5'Width'#2'd'#7'Anchors'#11#7'akRight'#8'akBottom'#0#7'Capt'
-  +'ion'#6#3'&OK'#7'Default'#9#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#8'TabOrder'
-  +#2#0#0#0#7'TBitBtn'#7'BitBtn2'#4'Left'#3#208#1#6'Height'#2#30#3'Top'#2#6#5'W'
-  +'idth'#2'd'#7'Anchors'#11#7'akRight'#8'akBottom'#0#6'Cancel'#9#7'Caption'#6#6
-  +'Cancel'#4'Kind'#7#8'bkCancel'#11'ModalResult'#2#2#8'TabOrder'#2#1#0#0#0#6'T'
-  +'Panel'#6'Panel2'#4'Left'#3#8#1#6'Height'#3#255#0#3'Top'#2#0#5'Width'#3'0'#1
-  +#5'Align'#7#8'alClient'#10'BevelInner'#7#9'bvLowered'#12'ClientHeight'#3#255
-  +#0#11'ClientWidth'#3'0'#1#8'TabOrder'#2#3#7'Visible'#8#0#6'TLabel'#6'Label1'
-  +#4'Left'#2#12#6'Height'#2#17#3'Top'#2#10#5'Width'#2'E'#7'Caption'#6#10'Datei'
-  +'name:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#12#6'Height'#2#17
-  +#3'Top'#2'<'#5'Width'#2'b'#7'Caption'#6#17'Startverzeichnis:'#11'ParentColor'
-  +#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#12#6'Height'#2#17#3'Top'#2'n'#5'Width'#2
-  +'C'#7'Caption'#6#10'Parameter:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label4'#4
-  +'Left'#2#12#6'Height'#2#17#3'Top'#3#160#0#5'Width'#2'Y'#7'Caption'#6#12'Show'
-  +' Window:'#11'ParentColor'#8#0#0#13'TFileNameEdit'#13'fned_filename'#4'Left'
-  +#2#12#6'Height'#2#27#3'Top'#2#27#5'Width'#3#7#1#11'DialogTitle'#6#20'Dateina'
-  +'me ausw'#195#164'hlen'#13'DialogOptions'#11#15'ofFileMustExist'#0#6'Filter'
-  +#6'zEXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM-Dateien|*.com|Ausf'#195
-  +#188'hrbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Dateien|*.*'#11'FilterIndex'
-  +#2#4#15'HideDirectories'#8#11'ButtonWidth'#2#23#9'NumGlyphs'#2#1#9'MaxLength'
-  +#2#0#8'TabOrder'#2#0#0#0#14'TDirectoryEdit'#16'dired_startupdir'#4'Left'#2#12
-  +#6'Height'#2#27#3'Top'#2'M'#5'Width'#3#7#1#10'ShowHidden'#8#11'ButtonWidth'#2
-  +#23#9'NumGlyphs'#2#1#9'MaxLength'#2#0#8'TabOrder'#2#1#0#0#5'TEdit'#13'ed_par'
-  +'ameters'#4'Left'#2#12#6'Height'#2#27#3'Top'#2#127#5'Width'#3#7#1#8'TabOrder'
-  +#2#2#0#0#9'TComboBox'#13'cb_showwindow'#4'Left'#2#12#6'Height'#2#25#3'Top'#3
-  +#177#0#5'Width'#3#7#1#10'ItemHeight'#2#0#9'ItemIndex'#2#12#13'Items.Strings'
-  +#1#6#7'swoNone'#6#7'swoHIDE'#6#11'swoMaximize'#6#11'swoMinimize'#6#10'swoRes'
-  +'tore'#6#7'swoShow'#6#14'swoShowDefault'#6#16'swoShowMaximized'#6#16'swoShow'
-  +'Minimized'#6#18'swoshowMinNOActive'#6#9'swoShowNA'#6#17'swoShowNoActivate'#6
-  +#13'swoShowNormal'#0#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#3#4'Text'#6
-  +#13'swoShowNormal'#0#0#7'TButton'#11'bt_saveprog'#4'Left'#3#200#0#6'Height'#2
-  +#25#3'Top'#3#213#0#5'Width'#2'K'#7'Caption'#6#9'Speichern'#7'OnClick'#7#16'b'
-  +'t_saveprogClick'#8'TabOrder'#2#4#0#0#9'TCheckBox'#11'chb_default'#4'Left'#2
-  +#12#6'Height'#2#21#3'Top'#3#217#0#5'Width'#3#145#0#7'Caption'#6#21'Start bei'
-  +' Doppelklick'#8'TabOrder'#2#5#0#0#0#10'TPopupMenu'#10'PopupMenu1'#7'OnPopup'
-  +#7#15'PopupMenu1Popup'#4'left'#3'@'#1#3'top'#3#235#0#0#9'TMenuItem'#10'mi_ne'
-  +'wmenu'#7'Caption'#6#16'Neues Untermen'#195#188#7'OnClick'#7#15'mi_newmenuCl'
-  +'ick'#0#0#9'TMenuItem'#10'mi_newprog'#7'Caption'#6#14'Neues Programm'#7'OnCl'
-  +'ick'#7#15'mi_newprogClick'#0#0#9'TMenuItem'#9'mi_rename'#7'Caption'#6#10'Um'
-  +'benennen'#7'OnClick'#7#14'mi_renameClick'#0#0#9'TMenuItem'#7'mi_sep1'#7'Cap'
-  +'tion'#6#1'-'#0#0#9'TMenuItem'#10'mi_delmenu'#7'Caption'#6#19'Untermen'#195
-  +#188' l'#195#182'schen'#7'OnClick'#7#15'mi_delprogClick'#0#0#9'TMenuItem'#10
-  +'mi_delprog'#3'Tag'#2#1#7'Caption'#6#17'Programm l'#195#182'schen'#7'OnClick'
-  +#7#15'mi_delprogClick'#0#0#0#22'TSelectDirectoryDialog'#22'SelectDirectoryDi'
-  +'alog1'#4'left'#3#17#1#3'top'#3#10#1#0#0#0
-]);
+  +'LCLVersion'#6#3'1.3'#0#9'TTreeView'#9'TreeView1'#4'Left'#2#0#6'Height'#3#253
+  +#0#3'Top'#2#0#5'Width'#3#8#1#5'Align'#7#6'alLeft'#17'DefaultItemHeight'#2#18
+  +#9'PopupMenu'#7#10'PopupMenu1'#8'ReadOnly'#9#16'RightClickSelect'#9#10'Scrol'
+  +'lBars'#7#10'ssAutoBoth'#8'TabOrder'#2#0#10'OnDragDrop'#7#17'TreeView1DragDr'
+  +'op'#10'OnDragOver'#7#17'TreeView1DragOver'#8'OnEdited'#7#15'TreeView1Edited'
+  +#9'OnEditing'#7#16'TreeView1Editing'#7'OnKeyUp'#7#14'TreeView1KeyUp'#11'OnMo'
+  +'useDown'#7#18'TreeView1MouseDown'#18'OnSelectionChanged'#7#25'TreeView1Sele'
+  +'ctionChanged'#7'Options'#11#17'tvoAutoItemHeight'#16'tvoHideSelection'#21't'
+  +'voKeepCollapsedNodes'#11'tvoReadOnly'#19'tvoRightClickSelect'#14'tvoShowBut'
+  +'tons'#12'tvoShowLines'#11'tvoShowRoot'#11'tvoToolTips'#0#0#0#10'TStatusBar'
+  +#10'StatusBar1'#4'Left'#2#0#6'Height'#2#23#3'Top'#3'&'#1#5'Width'#3'8'#2#6'P'
+  +'anels'#14#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#0#6'Height'#2')'#3'Top'#3#253
+  +#0#5'Width'#3'8'#2#5'Align'#7#8'alBottom'#10'BevelOuter'#7#9'bvLowered'#12'C'
+  +'lientHeight'#2')'#11'ClientWidth'#3'8'#2#8'TabOrder'#2#2#0#7'TBitBtn'#7'Bit'
+  +'Btn1'#4'Left'#3'c'#1#6'Height'#2#30#3'Top'#2#6#5'Width'#2'd'#7'Anchors'#11#7
+  +'akRight'#8'akBottom'#0#7'Caption'#6#3'&OK'#7'Default'#9#4'Kind'#7#4'bkOK'#11
+  +'ModalResult'#2#1#8'TabOrder'#2#0#0#0#7'TBitBtn'#7'BitBtn2'#4'Left'#3#208#1#6
+  +'Height'#2#30#3'Top'#2#6#5'Width'#2'd'#7'Anchors'#11#7'akRight'#8'akBottom'#0
+  +#6'Cancel'#9#7'Caption'#6#6'Cancel'#4'Kind'#7#8'bkCancel'#11'ModalResult'#2#2
+  +#8'TabOrder'#2#1#0#0#0#6'TPanel'#6'Panel2'#4'Left'#3#8#1#6'Height'#3#253#0#3
+  +'Top'#2#0#5'Width'#3'0'#1#5'Align'#7#8'alClient'#10'BevelInner'#7#9'bvLowere'
+  +'d'#12'ClientHeight'#3#253#0#11'ClientWidth'#3'0'#1#8'TabOrder'#2#3#7'Visibl'
+  +'e'#8#0#6'TLabel'#6'Label1'#4'Left'#2#12#6'Height'#2#15#3'Top'#2#10#5'Width'
+  +#2'<'#7'Caption'#6#10'Dateiname:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label2'#4
+  +'Left'#2#12#6'Height'#2#15#3'Top'#2'<'#5'Width'#2'U'#7'Caption'#6#17'Startve'
+  +'rzeichnis:'#11'ParentColor'#8#0#0#6'TLabel'#6'Label3'#4'Left'#2#12#6'Height'
+  +#2#15#3'Top'#2'n'#5'Width'#2'9'#7'Caption'#6#10'Parameter:'#11'ParentColor'#8
+  +#0#0#6'TLabel'#6'Label4'#4'Left'#2#12#6'Height'#2#15#3'Top'#3#160#0#5'Width'
+  +#2'O'#7'Caption'#6#12'Show Window:'#11'ParentColor'#8#0#0#13'TFileNameEdit'
+  +#13'fned_filename'#4'Left'#2#12#6'Height'#2#23#3'Top'#2#27#5'Width'#3#7#1#11
+  +'DialogTitle'#6#20'Dateiname ausw'#195#164'hlen'#13'DialogOptions'#11#15'ofF'
+  +'ileMustExist'#0#6'Filter'#6'zEXE-Files|*.exe|Script-Dateien|*.bat;*.cmd|COM'
+  +'-Dateien|*.com|Ausf'#195#188'hrbare Dateien|*.exe;*.bat;*.cmd;*.com|Alle Da'
+  +'teien|*.*'#11'FilterIndex'#2#4#15'HideDirectories'#8#11'ButtonWidth'#2#23#9
+  +'NumGlyphs'#2#1#9'MaxLength'#2#0#8'TabOrder'#2#0#0#0#14'TDirectoryEdit'#16'd'
+  +'ired_startupdir'#4'Left'#2#12#6'Height'#2#23#3'Top'#2'M'#5'Width'#3#7#1#10
+  +'ShowHidden'#8#11'ButtonWidth'#2#23#9'NumGlyphs'#2#1#9'MaxLength'#2#0#8'TabO'
+  +'rder'#2#1#0#0#5'TEdit'#13'ed_parameters'#4'Left'#2#12#6'Height'#2#23#3'Top'
+  +#2#127#5'Width'#3#7#1#8'TabOrder'#2#2#0#0#9'TComboBox'#13'cb_showwindow'#4'L'
+  +'eft'#2#12#6'Height'#2#23#3'Top'#3#177#0#5'Width'#3#7#1#10'ItemHeight'#2#15#9
+  +'ItemIndex'#2#12#13'Items.Strings'#1#6#7'swoNone'#6#7'swoHIDE'#6#11'swoMaxim'
+  +'ize'#6#11'swoMinimize'#6#10'swoRestore'#6#7'swoShow'#6#14'swoShowDefault'#6
+  +#16'swoShowMaximized'#6#16'swoShowMinimized'#6#18'swoshowMinNOActive'#6#9'sw'
+  +'oShowNA'#6#17'swoShowNoActivate'#6#13'swoShowNormal'#0#5'Style'#7#14'csDrop'
+  +'DownList'#8'TabOrder'#2#3#4'Text'#6#13'swoShowNormal'#0#0#7'TButton'#11'bt_'
+  +'saveprog'#4'Left'#3#200#0#6'Height'#2#25#3'Top'#3#213#0#5'Width'#2'K'#7'Cap'
+  +'tion'#6#9'Speichern'#7'OnClick'#7#16'bt_saveprogClick'#8'TabOrder'#2#4#0#0#9
+  +'TCheckBox'#11'chb_default'#4'Left'#2#12#6'Height'#2#19#3'Top'#3#217#0#5'Wid'
+  +'th'#3#128#0#7'Caption'#6#21'Start bei Doppelklick'#8'TabOrder'#2#5#0#0#0#10
+  +'TPopupMenu'#10'PopupMenu1'#7'OnPopup'#7#15'PopupMenu1Popup'#4'left'#3'@'#1#3
+  +'top'#3#235#0#0#9'TMenuItem'#10'mi_newmenu'#7'Caption'#6#16'Neues Untermen'
+  +#195#188#7'OnClick'#7#15'mi_newmenuClick'#0#0#9'TMenuItem'#10'mi_newprog'#7
+  +'Caption'#6#14'Neues Programm'#7'OnClick'#7#15'mi_newprogClick'#0#0#9'TMenuI'
+  +'tem'#9'mi_rename'#7'Caption'#6#10'Umbenennen'#7'OnClick'#7#14'mi_renameClic'
+  +'k'#0#0#9'TMenuItem'#7'mi_sep1'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#10'mi_del'
+  +'menu'#7'Caption'#6#19'Untermen'#195#188' l'#195#182'schen'#7'OnClick'#7#15
+  +'mi_delprogClick'#0#0#9'TMenuItem'#10'mi_delprog'#3'Tag'#2#1#7'Caption'#6#17
+  +'Programm l'#195#182'schen'#7'OnClick'#7#15'mi_delprogClick'#0#0#0#22'TSelec'
+  +'tDirectoryDialog'#22'SelectDirectoryDialog1'#4'left'#3#17#1#3'top'#3#10#1#0
+  ,#0#0
+]);

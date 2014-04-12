@@ -514,9 +514,19 @@ end;
 
 procedure TfrmStartProgSetup.TreeView1MouseDown(Sender: TObject;
   Button: TMouseButton; Shift: TShiftState; X, Y: Integer);
+var
+  pt: TPoint;
 begin
   selectedtnode := TreeView1.GetNodeAt(X, Y);
   TreeView1.BeginDrag(False);
+
+  if (Button = mbRight) then
+  begin
+    pt.x := X;
+    pt.y := Y;
+    pt := TreeView1.ControlToScreen(pt);
+    PopupMenu1.PopUp(pt.x, pt.y);
+  end; // if (Button = mbRight)
 end;
 
 procedure TfrmStartProgSetup.TreeView1SelectionChanged(Sender: TObject);
